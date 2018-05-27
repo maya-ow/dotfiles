@@ -51,12 +51,13 @@ set hlsearch            "検索語をハイライト表示
 nmap <Esc><Esc> :nohlsearch<CR><Esc> "ESC連打でハイライト解除
 
 "#####シンタックスハイライト#####
-syntax on
 set t_Co=256
 "set ambiwidth=double
 set background=dark
-colorscheme solarized "カラースキーマ solarized
+colorscheme hybrid
+"colorscheme solarized "カラースキーマ solarized
 "colorscheme molokai "カラースキーマ molokai
+syntax on
 
 "#####dein設定#####
 " プラグインが実際にインストールされるディレクトリ
