@@ -54,7 +54,7 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc> "ESC連打でハイライト解除
 syntax on
 set t_Co=256
 "set ambiwidth=double
-"set background=dark
+set background=dark
 colorscheme solarized "カラースキーマ solarized
 "colorscheme molokai "カラースキーマ molokai
 
