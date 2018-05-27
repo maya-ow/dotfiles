@@ -6,7 +6,6 @@ set showmatch   "括弧入力時の対応する括弧を表示
 set tabstop=4   "インデントをスペース4つ分に設定
 set smartindent "オートインデント
 
-
 "#####ステータスライン#####
 set statusline=%F  "ファイル名を表示
 set statusline+=%m "変更チェック表示
@@ -22,6 +21,11 @@ set laststatus=2   "ステータスラインを常に表示（0:非表示 1:ウ�
 set ignorecase "大文字/小文字の区別なく検索する
 set smartcase  "検索文字列に大文字が含まれている場合は区別して検索する
 set wrapscan   "検索時に最後まで行ったら最初に戻る
+
+"#####シンタックスハイライト#####
+syntax on
+set nohlsearch
+set cursorline
 
 "#####dein設定#####
 " プラグインが実際にインストールされるディレクトリ
